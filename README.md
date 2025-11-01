@@ -68,8 +68,6 @@ FROM RankedRatings
 WHERE rank = 1;
 ```
 
-
-
 **3. List All Movies Released in a Specific Year (e.g., 2020)**
 ``sql
 SELECT * 
@@ -78,7 +76,7 @@ WHERE release_year = 2020;
 ```
 
 
-**4. Find the Top 5 Countries with the Most Content on Netflix**
+4. Find the Top 5 Countries with the Most Content on Netflix
 ```sql
 SELECT * 
 FROM
@@ -144,8 +142,9 @@ FROM netflix
 GROUP BY 1;
 ```
 
-**10.Find each year and the average numbers of content release in India on netflix.
-return top 5 year with highest avg content release!**
+10.Find each year and the average numbers of content release in India on netflix.
+return top 5 year with highest avg content release!
+
 ```sql
 SELECT 
     country,
