@@ -135,7 +135,8 @@ WHERE type = 'TV Show'
 
 
 **9. Count the Number of Content Items in Each Genre**
-    ```sql
+
+    ```
 SELECT 
     UNNEST(STRING_TO_ARRAY(listed_in, ',')) AS genre,
     COUNT(*) AS total_content
