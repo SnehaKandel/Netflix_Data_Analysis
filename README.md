@@ -69,6 +69,7 @@ WHERE rank = 1;
 ```
 
 **3. List All Movies Released in a Specific Year (e.g., 2020)**
+
 ``sql
 SELECT * 
 FROM netflix
